@@ -6,7 +6,7 @@ end
 breakfast("scramled eggs")
 
 def lunch(food = "grilled cheese")
-  puts "lunch time is the best time for #{food}"
+  puts "lunch time is the best time for a #{food}"
 end
 
 lunch("grilled cheese sandwich")
