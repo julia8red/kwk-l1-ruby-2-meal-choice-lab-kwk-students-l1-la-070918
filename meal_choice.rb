@@ -4,4 +4,4 @@ def snacks(food="Cheetos")
 end
 
 puts snacks("scambled eggs")
-
+puts snacks("frosted flakes")
