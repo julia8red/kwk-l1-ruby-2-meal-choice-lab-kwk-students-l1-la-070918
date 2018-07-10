@@ -1,7 +1,18 @@
 
-def snacks(food="Cheetos")
-  "Morning is the best time for #{food}!"
+def breakfast(food="frosted flakes")
+  puts "Morning is the best time for #{food}!"
 end
 
-puts snacks("scambled eggs")
-puts snacks("frosted flakes")
+breakfast("scramled eggs")
+
+def lunch(food = "grilled cheese")
+  puts "lunch time is the best time for #{food}"
+end
+
+lunch("grilled cheese sandwich")
+
+def dinner(food = "salmon")
+  puts "dinner is the best time for #{food}"
+end
+
+dinner("salmon")
